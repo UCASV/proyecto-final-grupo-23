@@ -22,7 +22,7 @@ Los paquetes externos que implementamos en el programa son los **nugets** lo cua
 # Instalación 
 
 ### Visual Studio
-Gracias a Microsoft fue que utilizamos **Visual Studio 2019** tiene su propia página web en el cual se encuentra su apartado de descarga , al ingresar al link “https://visualstudio.microsoft.com/es/downloads/” encontramos tres opciones para descargar el .exe que son Comunidad, Profesional y Enterprise. En nuestro caso instalamos el de la comunidad ya que ese IDE es el único con licencia gratuita y en cambio los demás tiene una prueba gratuita pero luego se le pedirá realizar un gasto ya que se paga la licencia. Ya dentro del Instalador el usuario podrá configurar los lenguajes y las herramientas que desea instalar para acceder a ellas 
+Gracias a Microsoft fue que utilizamos **Visual Studio 2019** tiene su propia página web en el cual se encuentra su apartado de descarga , al ingresar al link “https://visualstudio.microsoft.com/es/downloads/” encontramos tres opciones para descargar el .exe que son Comunidad, Profesional y Enterprise. En nuestro caso instalamos el de la comunidad ya que ese IDE es el único con licencia gratuita y en cambio los demás tiene una prueba gratuita pero luego se le pedirá realizar un gasto ya que se paga la licencia. Ya dentro del Instalador el usuario podrá configurar los lenguajes y las herramientas que desea instalar para acceder a ellas.
 
 
 ### MySQL Comunity Server
@@ -43,4 +43,4 @@ En el proyecto contamos con una base de datos creada por nosotros en el cual uti
 
 
 ### Patron de diseño 
-**Abstract  Factory** fue el patron que utilizamos ya que podemos trabajar con objetos teniendo distintas familias de manera que ellas no se lleguen a mezclar entre si y siempre exista la transparencia del tipo de familia concreta que se usa. Aunque existe un problema y es al momento de querer crear diferentes familias de objetos, dando ejemplos como llegar a crear interfaz grafica con distinta variedad(boton,ventana, combobox, etc)
+**Abstract  Factory** fue el patron que utilizamos ya que podemos trabajar con objetos teniendo distintas familias de manera que ellas no se lleguen a mezclar entre si y siempre exista la transparencia del tipo de familia concreta que se usa. Aunque existe un problema y es al momento de querer crear diferentes familias de objetos, dando ejemplos como llegar a crear interfaz grafica con distinta variedad(boton,ventana, combobox, etc).
