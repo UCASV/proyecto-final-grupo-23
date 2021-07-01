@@ -42,5 +42,6 @@ Luego no se modifica lo demás que nos piden hasta que nos salga crear una contr
 En el proyecto contamos con una base de datos creada por nosotros en el cual utilizamos una cadena de conexión al IDE de Visual Studio para vincularlo, ya que contaba con las tablas y valores hechas para solo desarrollarlo por código.
 
 
-###Patron de diseño
+###Patron de diseño 
+
 **Abstract  Factory** fue el patron que utilizamos ya que podemos trabajar con objetos teniendo distintas familias de manera que ellas no se lleguen a mezclar entre si y siempre exista la transparencia del tipo de familia concreta que se usa. Aunque existe un problema y es al momento de querer crear diferentes familias de objetos, dando ejemplos como llegar a crear interfaz grafica con distinta variedad(boton,ventana, combobox, etc)
